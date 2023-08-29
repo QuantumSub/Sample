@@ -4,7 +4,7 @@ import axios from "axios";
 function App() {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
-
+//1
   const handleSubmit = (e) => {
     e.preventDefault();
 
