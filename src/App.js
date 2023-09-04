@@ -7,7 +7,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-//1
+//3
     // Send a request to the server with the prompt
     axios
       .post("http://localhost:8080/chat", {message: prompt})
